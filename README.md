@@ -38,10 +38,49 @@ The default domain is ‘default’, therefore your locale folder would look som
 /app/Locale/por/LC_MESSAGES/default.po (Portuguese)
 ```
 
-
-
-
 #Localization in CakePHP
+
+##Database
+```mysql
+--
+-- Database: `cake_translate`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `posts`
+--
+
+DROP TABLE IF EXISTS `posts`;
+CREATE TABLE `posts` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(50) DEFAULT NULL,
+  `body` text,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `posts`
+--
+ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `posts`
+--
+ALTER TABLE `posts`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+```
 
 ###Step 1: app/Config/routes.php###
 
