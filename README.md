@@ -1,6 +1,11 @@
 # cakephp-translate-example
 Cakephp Translate Behavior Example
 
+**[Gettext](https://en.wikipedia.org/wiki/Gettext) is an internationalization and localization (i18n)**
+
+**Tools for po editor https://poedit.net/**
+
+The three-character locale codes conform to the [ISO 639-2](http://www.loc.gov/standards/iso639-2/php/code_list.php) standard, although if you create regional locales (en_US, en_GB, etc.) cake will use them if appropriate.
 
 #Initializing the i18n Database Tables
 
@@ -21,6 +26,7 @@ To internationalize your code, all you need to do is to wrap strings in __() lik
 ```
 
 CakePHP will look for your po files in the following location:
+
 ```code
 /app/Locale/<locale>/LC_MESSAGES/<domain>.po
 ```
