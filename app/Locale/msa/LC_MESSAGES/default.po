@@ -1,0 +1,125 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2016-04-06 09:35+0800\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: \n"
+"Language: ms_MY@latin\n"
+
+#: Controller/PostsController.php:47;79;104
+msgid "Invalid post"
+msgstr "Maklumat Tidak Sah"
+
+#: Controller/PostsController.php:62;83
+msgid "The post has been saved."
+msgstr "Maklumat berjaya di simpan"
+
+#: Controller/PostsController.php:65;86
+msgid "The post could not be saved. Please, try again."
+msgstr "Maklumat gagal disimpan. Sila cuba sekali lagi."
+
+#: Controller/PostsController.php:108
+msgid "The post has been deleted."
+msgstr "Maklumat telah dihapuskan"
+
+#: Controller/PostsController.php:110
+msgid "The post could not be deleted. Please, try again."
+msgstr "Maklumat tidak dapat disimpan. Sila cuba sekali lagi."
+
+#: View/Posts/add.ctp:4
+msgid "Add Post"
+msgstr "Tambah Maklumat"
+
+#: View/Posts/add.ctp:10 View/Posts/edit.ctp:11
+msgid "Submit"
+msgstr "Hantar"
+
+#: View/Posts/add.ctp:13 View/Posts/edit.ctp:14 View/Posts/index.ctp:11;46
+#: View/Posts/view.ctp:32
+msgid "Actions"
+msgstr "Tindakan"
+
+#: View/Posts/add.ctp:16 View/Posts/edit.ctp:18 View/Posts/view.ctp:36
+msgid "List Posts"
+msgstr "Senarai maklumat"
+
+#: View/Posts/edit.ctp:4 View/Posts/view.ctp:34
+msgid "Edit Post"
+msgstr "Kemaskini maklumat"
+
+#: View/Posts/edit.ctp:17 View/Posts/index.ctp:25
+msgid "Delete"
+msgstr "Hapus"
+
+#: View/Posts/edit.ctp:17 View/Posts/index.ctp:25 View/Posts/view.ctp:35
+msgid "Are you sure you want to delete # %s?"
+msgstr "Adakah anda pasti untuk hapuskan # %s?"
+
+#: View/Posts/home.ctp:7 View/Posts/index.ctp:2
+msgid "Posts"
+msgstr "Maklumat"
+
+#: View/Posts/home.ctp:10 View/Posts/view.ctp:4
+msgid "Id"
+msgstr "Id"
+
+#: View/Posts/home.ctp:15 View/Posts/view.ctp:9
+msgid "Title"
+msgstr "Tajuk"
+
+#: View/Posts/home.ctp:20 View/Posts/view.ctp:14
+msgid "Body"
+msgstr "Kandungan"
+
+#: View/Posts/home.ctp:25 View/Posts/view.ctp:19
+msgid "Created"
+msgstr "Wujud"
+
+#: View/Posts/home.ctp:30 View/Posts/view.ctp:24
+msgid "Modified"
+msgstr "Kemaskini"
+
+#: View/Posts/home.ctp:41 View/Posts/index.ctp:34
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Halaman {:page} daripada {:pages}, paparan {:current} maklumat dari jumlah "
+"{:count}, rekod mula {:start}, rekod akhir {:end}"
+
+#: View/Posts/home.ctp:46 View/Posts/index.ctp:39
+msgid "previous"
+msgstr "sebelum"
+
+#: View/Posts/home.ctp:48 View/Posts/index.ctp:41
+msgid "next"
+msgstr "seterusnya"
+
+#: View/Posts/index.ctp:23
+msgid "View"
+msgstr "Papar"
+
+#: View/Posts/index.ctp:24
+msgid "Edit"
+msgstr "Kemaskini"
+
+#: View/Posts/index.ctp:48 View/Posts/view.ctp:37
+msgid "New Post"
+msgstr "Maklumat Baru"
+
+#: View/Posts/view.ctp:2
+msgid "Post"
+msgstr "Maklumat"
+
+#: View/Posts/view.ctp:35
+msgid "Delete Post"
+msgstr "Hapus Maklumat"
